@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryn Hamiel | Exorcist VTuber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-cross">
+        <div class="cross-hair"></div>
+        <div class="cross-center"></div>
+    </div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <span class="rune">𖤐</span>
+            <span class="logo-text">Ryn Hamiel</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" data-text="Home">Home</a></li>
+            <li><a href="#about" data-text="About">About</a></li>
+            <li><a href="#gallery" data-text="Gallery">Gallery</a></li>
+            <li><a href="#commissions" data-text="Commissions">Commissions</a></li>
+            <li><a href="#contact" data-text="Contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Character Banner (Top Display) -->
+    <div class="character-banner">
+        <div class="banner-char char-1">
+            <img src="images/char-portrait-1.png" alt="Ryn Hamiel Portrait 1">
+            <div class="char-glow"></div>
+        </div>
+        <div class="banner-char char-2">
+            <img src="images/char-portrait-2.png" alt="Kagura Portrait 2">
+            <div class="char-glow"></div>
+        </div>
+        <div class="banner-char char-3">
+            <img src="images/char-portrait-3.png" alt="Kagura Portrait 3">
+            <div class="char-glow"></div>
+        </div>
+        <div class="banner-text">
+            <h2 class="glitch-text" data-text="EXORCIST VTUBER">EXORCIST VTUBER</h2>
+            <p>Enter the realm of digital spirits</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="magical-circle">
+                <svg viewBox="0 0 400 400">
+                    <circle cx="200" cy="200" r="180" fill="none" stroke="#e03d3d" stroke-width="1" opacity="0.3"/>
+                    <circle cx="200" cy="200" r="150" fill="none" stroke="#e03d3d" stroke-width="1" opacity="0.5"/>
+                    <circle cx="200" cy="200" r="120" fill="none" stroke="#e03d3d" stroke-width="2" opacity="0.7"/>
+                    <path d="M200 20 L220 180 L380 200 L220 220 L200 380 L180 220 L20 200 L180 180 Z" fill="none" stroke="#e03d3d" stroke-width="1" opacity="0.4"/>
+                    <path d="M200 50 L210 190 L350 200 L210 210 L200 350 L190 210 L50 200 L190 190 Z" fill="none" stroke="#e03d3d" stroke-width="1" opacity="0.6"/>
+                </svg>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-char">R</span>
+                    <span class="title-char">Y</span>
+                    <span class="title-char">N</span>
+                    <span class="title-char">&ensp;</span>
+                    <span class="title-char">H</span>
+                    <span class="title-char">A</span>
+                    <span class="title-char">M</span>
+                    <span class="title-char">I</span>
+                    <span class="title-char">E</span>
+                    <span class="title-char">L</span>
+                </h1>
+                <p class="hero-subtitle">The Exorcist of the Digital Realm</p>
+                <p class="hero-desc">I seal away the mundane and bring entertainment to the lost souls of the internet. [VTuber, Digital Artist, & Rigger]</p>
+                <a href="#commissions" class="cta-button">
+                    <span class="cta-text">Enter the Contract</span>
+                    <span class="cta-glow"></span>
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-character.png" alt="Ryn Hamiel - Exorcist VTuber">
+                <div class="image-aura"></div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to descend</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <span class="section-rune">✦</span>
+            <h2 class="section-title">The Exorcist's Chronicle</h2>
+            <span class="section-rune">✦</span>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/gallery-3.jpg" alt="About Kagura">
+                <div class="image-frame"></div>
+            </div>
+            <div class="about-text">
+                <div class="text-card">
+                    <h3>About Me</h3>
+                    <p>
+                        Welcome to the <strong>the world of exorcism</strong>. I'm <strong>Ryn Hamiel</strong>, 
+                        a fallen angel who has now entered the world of VTuber and will explore the darkest corners of the gaming 
+                        and supernatural worlds. Get ready, lost souls, I'm here to catch you.
+                    </p>
+                    <p>
+                        My streams feature <strong>horror games</strong>, dark fantasy RPGs, and 
+                        occult-themed content. Whether I'm battling demons in-game or sharing spooky stories, 
+                        every stream is an adventure into the unknown.
+                    </p>
+                    <p>
+                        Join my covenant of followers and become part of something extraordinary. 
+                        Together, we'll explore the mysteries that lurk in the darkness.
+                    </p>
+                    <p>
+                        Name&emsp;&emsp;&nbsp;: Ryn Hamiel<br>
+                        Age&emsp;&emsp;&ensp;&ensp;: 1000+<br>
+                        Race&emsp;&emsp;&nbsp;: Fallen Angel<br>
+                        Occupation&nbsp;: Exorcist & VTuber<br>
+                        Height&emsp;&ensp;: 160 cm<br>
+                        Weight&emsp;&ensp;: 48 kg<br>
+                        Hobbies&emsp;&nbsp;: Gaming and Drawing<br>
+                    </p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="1184">0</span>
+                        <span class="stat-label">subscribe</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="225">0</span>
+                        <span class="stat-label">Content</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="1984">0</span>
+                        <span class="stat-label">Viewers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="section-header">
+            <span class="section-rune">✦</span>
+            <h2 class="section-title">The  portofolio</h2>
+            <span class="section-rune">✦</span>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-column column-1">
+                <div class="gallery-item">
+                    <img src="images/gallery-1.jpg" alt="Gallery 1">
+                    <div class="item-overlay">
+                        <span class="item-title">Model L2D VTuber-Lily</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-4.jpg" alt="Gallery 4">
+                    <div class="item-overlay">
+                        <span class="item-title">Model L2D VTuber-Kai Sarios</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-column column-2">
+                <div class="gallery-item">
+                    <img src="images/gallery-2.jpg" alt="Gallery 2">
+                    <div class="item-overlay">
+                        <span class="item-title">Model L2D VTuber-Ryn Hamiel</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-5.jpg" alt="Gallery 5">
+                    <div class="item-overlay">
+                        <span class="item-title">Art Chibi VTuber-Rafka</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-column column-3">
+                <div class="gallery-item">
+                    <img src="images/gallery-3.jpg" alt="Gallery 3">
+                    <div class="item-overlay">
+                        <span class="item-title">Art VTuber-Ryn Hamiel</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-6.jpg" alt="Gallery 6">
+                    <div class="item-overlay">
+                        <span class="item-title">Art VTuber-Nono</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <div class="section-header">
+            <span class="section-rune">✦</span>
+            <h2 class="section-title">Spectral Recordings</h2>
+            <span class="section-rune">✦</span>
+        </div>
+        
+        <!-- Local Video Player -->
+        <div class="video-player-container">
+            <div class="player-frame">
+                <div class="ritual-border">
+                    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <path d="M0 0 L100 0 L100 100 L0 100 Z" fill="none" stroke="#e03d3d" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+                    </svg>
+                </div>
+                <video id="mo8cuSk85H4" controls poster="images/loading.jpg">
+                    <source src="videos/placeholder.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-controls-overlay">
+                    <div class="ritual-play-btn" id="ritual-play">
+                        <div class="ritual-circle-small">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="#e03d3d" stroke-width="1" opacity="0.5"/>
+                                <circle cx="50" cy="50" r="35" fill="none" stroke="#e03d3d" stroke-width="2" opacity="0.7"/>
+                            </svg>
+                        </div>
+                        <span class="play-symbol">▶</span>
+                    </div>
+                </div>
+            </div>
+            <div class="now-playing">
+                <div class="playing-indicator">
+                    <span class="equalizer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <span class="playing-text">NOW PLAYING</span>
+                </div>
+                <h3 id="current-video-title">Select a video from the library</h3>
+            </div>
+        </div>
+        
+        <!-- Video Library -->
+        <div class="video-library">
+            <h3 class="library-title">
+                <span class="rune">𖤐</span>
+                Video Library
+                <span class="video-count">4 videos</span>
+            </h3>
+            
+            <div class="video-grid">
+                <a href="https://www.youtube.com/watch?v=Ts69y8SfU4w" target="_blank" class="video-card">
+    <div class="video-thumbnail">
+        <img src="https://img.youtube.com/vi/Ts69y8SfU4w/maxresdefault.jpg" alt="Video 2">
+        <div class="play-overlay">
+            <div class="play-button">
+                <span>▶</span>
+            </div>
+            <div class="duration">7:52:23</div>
+        </div>
+        <div class="video-glow"></div>
+    </div>
+    <div class="video-details">
+        <h4>🔴[Ngabuburit] Day 23 lanjut gambar gessss</h4>
+        <p>Ujian di hari ke 23 bisakah kita melewatinya?</p>
+        <div class="video-meta">
+            <span>🂡 Mar 13, 2026</span>
+            <span>• Watch on YouTube</span>
+        </div>
+    </div>
+</a>
+                
+                <a href="https://www.youtube.com/watch?v=mo8cuSk85H4" target="_blank" class="video-card">
+    <div class="video-thumbnail">
+        <img src="https://img.youtube.com/vi/mo8cuSk85H4/maxresdefault.jpg" alt="Video 2">
+        <div class="play-overlay">
+            <div class="play-button">
+                <span>▶</span>
+            </div>
+            <div class="duration">0:41:23</div>
+        </div>
+        <div class="video-glow"></div>
+    </div>
+    <div class="video-details">
+        <h4>Ryn Hamiel 2.0 Vtuber Debut Trailer</h4>
+        <p>Tanda-tanda kemunculan Dark Angel!</p>
+        <div class="video-meta">
+            <span>🂡 Nov 24, 2025</span>
+            <span>• Watch on YouTube</span>
+        </div>
+    </div>
+</a>
+
+
+                
+                <a href="https://www.youtube.com/watch?v=CsOocPy4hTM" target="_blank" class="video-card">
+    <div class="video-thumbnail">
+        <img src="https://img.youtube.com/vi/CsOocPy4hTM/maxresdefault.jpg" alt="Video 2">
+        <div class="play-overlay">
+            <div class="play-button">
+                <span>▶</span>
+            </div>
+            <div class="duration">7:12:23</div>
+        </div>
+        <div class="video-glow"></div>
+    </div>
+    <div class="video-details">
+        <h4>🔴[Ngabuburit] Day 20 lanjut senam jantung</h4>
+        <p>Siapkan diri kalian! di sini sangat berbahaya!</p>
+        <div class="video-meta">
+            <span>🂡 Mar 10, 2026</span>
+            <span>• Watch on YouTube</span>
+        </div>
+    </div>
+</a>
+                
+                <a href="https://www.youtube.com/watch?v=j1xvmyWXFV4" target="_blank" class="video-card">
+    <div class="video-thumbnail">
+        <img src="https://img.youtube.com/vi/j1xvmyWXFV4/maxresdefault.jpg" alt="Video 2">
+        <div class="play-overlay">
+            <div class="play-button">
+                <span>▶</span>
+            </div>
+            <div class="duration">4:04:23</div>
+        </div>
+        <div class="video-glow"></div>
+    </div>
+    <div class="video-details">
+        <h4>🔴[Devil May Cry 3] Saatnya Vergil menunjukan taringnya</h4>
+        <p>Gimana jadinya kalau seseorang yg punya ambisi akan kekuatan</p>
+        <div class="video-meta">
+            <span>🂡 Jan 14, 2026</span>
+            <span>• Watch on YouTube</span>
+        </div>
+    </div>
+</a>
+        
+        <!-- Video Upload Info -->
+        <div class="video-upload-info">
+            <div class="upload-card">
+                <div class="upload-icon"></div>
+                <h4>How to Add Videos</h4>
+                <p>Place your video files (.mp4) in the <code>/videos/</code> folder and update the video cards above.</p>
+                <div class="supported-formats">
+                    <span>Supported: MP4, WebM, OGG</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Live Status -->
+        <div class="live-status">
+            <div class="status-indicator">
+                <div class="pulse-ring"></div>
+                <div class="live-dot"></div>
+                <span class="status-text">LIVE NOW</span>
+            </div>
+            <a href="https://www.youtube.com/@RynHamiel" target="_blank" class="youtube-link">
+                <span>Watch on youtube</span>
+                <svg viewBox="0 0 24 24" class="youtube-icon">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Commissions Section -->
+    <section id="commissions" class="commissions">
+        <div class="section-header">
+            <span class="section-rune">✦</span>
+            <h2 class="section-title">Forge a Contract</h2>
+            <span class="section-rune">✦</span>
+        </div>
+        
+        <!-- Commission Folders -->
+        <div class="folders-container">
+            <div class="folder" data-folder="1">
+                <div class="folder-glass">
+                    <div class="glass-shards">
+                        <div class="shard shard-1"></div>
+                        <div class="shard shard-2"></div>
+                        <div class="shard shard-3"></div>
+                        <div class="shard shard-4"></div>
+                        <div class="shard shard-5"></div>
+                    </div>
+                </div>
+                <div class="folder-icon">
+                    <svg viewBox="0 0 100 80">
+                        <path d="M10 20 L30 20 L40 10 L70 10 L70 20 L90 20 L90 70 L10 70 Z" fill="none" stroke="#e03d3d" stroke-width="2"/>
+                        <path d="M10 25 L90 25" stroke="#e03d3d" stroke-width="1" opacity="0.5"/>
+                    </svg>
+                </div>
+                <div class="folder-label">Character Design</div>
+                <div class="folder-glow"></div>
+            </div>
+            
+            <div class="folder" data-folder="2">
+                <div class="folder-glass">
+                    <div class="glass-shards">
+                        <div class="shard shard-1"></div>
+                        <div class="shard shard-2"></div>
+                        <div class="shard shard-3"></div>
+                        <div class="shard shard-4"></div>
+                        <div class="shard shard-5"></div>
+                    </div>
+                </div>
+                <div class="folder-icon">
+                    <svg viewBox="0 0 100 80">
+                        <path d="M10 20 L30 20 L40 10 L70 10 L70 20 L90 20 L90 70 L10 70 Z" fill="none" stroke="#e03d3d" stroke-width="2"/>
+                        <path d="M10 25 L90 25" stroke="#e03d3d" stroke-width="1" opacity="0.5"/>
+                    </svg>
+                </div>
+                <div class="folder-label">Live2D Rigging</div>
+                <div class="folder-glow"></div>
+            </div>
+            
+            <div class="folder" data-folder="3">
+                <div class="folder-glass">
+                    <div class="glass-shards">
+                        <div class="shard shard-1"></div>
+                        <div class="shard shard-2"></div>
+                        <div class="shard shard-3"></div>
+                        <div class="shard shard-4"></div>
+                        <div class="shard shard-5"></div>
+                    </div>
+                </div>
+                <div class="folder-icon">
+                    <svg viewBox="0 0 100 80">
+                        <path d="M10 20 L30 20 L40 10 L70 10 L70 20 L90 20 L90 70 L10 70 Z" fill="none" stroke="#e03d3d" stroke-width="2"/>
+                        <path d="M10 25 L90 25" stroke="#e03d3d" stroke-width="1" opacity="0.5"/>
+                    </svg>
+                </div>
+                <div class="folder-label">Illustration</div>
+                <div class="folder-glow"></div>
+            </div>
+            
+            <div class="folder" data-folder="4">
+                <div class="folder-glass">
+                    <div class="glass-shards">
+                        <div class="shard shard-1"></div>
+                        <div class="shard shard-2"></div>
+                        <div class="shard shard-3"></div>
+                        <div class="shard shard-4"></div>
+                        <div class="shard shard-5"></div>
+                    </div>
+                </div>
+                <div class="folder-icon">
+                    <svg viewBox="0 0 100 80">
+                        <path d="M10 20 L30 20 L40 10 L70 10 L70 20 L90 20 L90 70 L10 70 Z" fill="none" stroke="#e03d3d" stroke-width="2"/>
+                        <path d="M10 25 L90 25" stroke="#e03d3d" stroke-width="1" opacity="0.5"/>
+                    </svg>
+                </div>
+                <div class="folder-label">Emotes & Badges</div>
+                <div class="folder-glow"></div>
+            </div>
+        </div>
+
+        <!-- Commission Details (Hidden by default) -->
+        <div class="commission-details" id="detail-1">
+            <div class="detail-content">
+                <button class="close-detail">×</button>
+                <h3>Character Design</h3>
+                <div class="detail-image">
+                    <img src="images/gallery-1.jpg" alt="Character Design">
+                </div>
+                <div class="detail-info">
+                    <p>Full character design service including concept art, reference sheets, and color palettes.</p>
+                    <ul>
+                        <li>Full body illustration</li>
+                        <li>Multiple expressions</li>
+                        <li>Outfit variations</li>
+                        <li>Reference sheet</li>
+                    </ul>
+                    <div class="price">Coming soon <span>$</span></div>
+                    <button class="order-btn">Summon Request</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="commission-details" id="detail-2">
+            <div class="detail-content">
+                <button class="close-detail">×</button>
+                <h3>Live2D Rigging</h3>
+                <div class="detail-image">
+                    <img src="images/gallery-2.jpg" alt="Live2D Rigging">
+                </div>
+                <div class="detail-info">
+                    <p>Professional Live2D rigging for your VTuber model with smooth animations and expressions.</p>
+                    <ul>
+                        <li>Full body rigging</li>
+                        <li>Facial expressions</li>
+                        <li>Physics simulation</li>
+                        <li>Toggle accessories</li>
+                    </ul>
+                    <div class="price">Coming soon <span>$</span></div>
+                    <button class="order-btn">Summon Request</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="commission-details" id="detail-3">
+            <div class="detail-content">
+                <button class="close-detail">×</button>
+                <h3>Illustration</h3>
+                <div class="detail-image">
+                    <img src="images/gallery-5.jpg" alt="Illustration">
+                </div>
+                <div class="detail-info">
+                    <p>Custom illustrations for thumbnails, banners, promotional art, and more.</p>
+                    <ul>
+                        <li>High resolution</li>
+                        <li>Complex backgrounds</li>
+                        <li>Multiple characters</li>
+                        <li>Commercial use</li>
+                    </ul>
+                    <div class="price">Coming soon <span>$</span></div>
+                    <button class="order-btn">Summon Request</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="commission-details" id="detail-4">
+            <div class="detail-content">
+                <button class="close-detail">×</button>
+                <h3>Emotes & Badges</h3>
+                <div class="detail-image">
+                    <img src="images/gallery-3.jpg" alt="Emotes">
+                </div>
+                <div class="detail-info">
+                    <p>Custom Twitch/YouTube emotes and subscriber badges for your channel.</p>
+                    <ul>
+                        <li>Multiple sizes</li>
+                        <li>Animated options</li>
+                        <li>Matching badge set</li>
+                        <li>Channel points icons</li>
+                    </ul>
+                    <div class="price">Coming soon <span>$</span> each</div>
+                    <button class="order-btn">Summon Request</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+    <div class="section-header">
+        <span class="section-rune">✦</span>
+        <h2 class="section-title">Summon Me</h2>
+        <span class="section-rune">✦</span>
+    </div>
+    
+    <div class="contact-container">
+        <div class="contact-circle">
+            <svg viewBox="0 0 400 400" class="circle-svg">
+                <circle cx="200" cy="200" r="190" fill="none" stroke="#e03d3d" stroke-width="1" opacity="0.3" class="circle-rotate"/>
+                <circle cx="200" cy="200" r="170" fill="none" stroke="#e03d3d" stroke-width="1" opacity="0.5" class="circle-rotate-reverse"/>
+                <circle cx="200" cy="200" r="150" fill="none" stroke="#e03d3d" stroke-width="2" opacity="0.7"/>
+            </svg>
+        </div>
+
+       <form
+            action="https://formspree.io/f/xvzwdkda"
+            method="POST"
+>
+    <div class="form-group">
+        <input type="text" name="name" id="name" required>
+        <label for="name">Your Name</label>
+        <div class="input-rune">✦</div>
+    </div>
+
+    <div class="form-group">
+        <input type="email" name="email" id="email" required>
+        <label for="email">Your Email</label>
+        <div class="input-rune">✦</div>
+    </div>
+
+    <div class="form-group">
+        <textarea name="message" id="message" rows="4" required></textarea>
+        <label for="message">Your Message</label>
+        <div class="input-rune">✦</div>
+    </div>
+
+    <button type="submit" class="submit-btn">
+        <span>Send Offering</span>
+        <div class="btn-rune"></div>
+    </button>
+</form>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="rune">𖤐</span>
+                <span>Ryn Hamiel</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://x.com/RynHamiel" class="social-link">
+                    <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                </a>
+                <a href="https://rynhamiel.github.io" class="social-link">
+                    <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <a href="https://www.youtube.com/@RynHamiel" class="social-link">
+                    <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+                </a>
+            </div>
+            <p class="footer-text">© 2026 Ryn Hamiel . All souls reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Ritual Overlay -->
+    <div class="ritual-overlay">
+        <div class="ritual-circle">
+            <svg viewBox="0 0 400 400">
+                <circle cx="200" cy="200" r="180" fill="none" stroke="#e03d3d" stroke-width="2"/>
+                <circle cx="200" cy="200" r="150" fill="none" stroke="#e03d3d" stroke-width="1"/>
+                <circle cx="200" cy="200" r="120" fill="none" stroke="#e03d3d" stroke-width="3"/>
+                <path d="M200 20 L220 180 L380 200 L220 220 L200 380 L180 220 L20 200 L180 180 Z" fill="none" stroke="#e03d3d" stroke-width="2"/>
+            </svg>
+        </div>
+        <div class="ritual-particles"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
